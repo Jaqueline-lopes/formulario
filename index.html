@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Formulário</title>
-
-</head>
+    <link rel="stylesheet" href="style.css">
+      
+</head> 
 
  <body>
     
-    <h1>Preencha este Formulário</h1>
+    <h1 class="center">Preencha este Formulário</h1>
     <br>
     <form>
-       
+
       <!--CAMPO PARA NOME-->
       <label for="campo_nome">Nome:</label>
-      <input id="campo_nome" type="text" placeholder="Digite seu nome" required>
+      <input id="campo_nome" class="center" type="text" placeholder="Digite seu nome" required>
     <br><br>
 
       <!--CAMPO PARA EMAIL-->
       <label for="campo_email">Email:</label>
-      <input id="campo_email" type="email" placeholder="Digite seu email" required>
+      <input id="campo_email" class="center" type="email" placeholder="Digite seu email" required>
     <br><br>
 
       <!--CAMPO PARA SENHA-->
       <label for="campo_senha">Senha:</label>
-      <input id="campo_senha" type="password" placeholder="Digite sua senha" required>
+      <input id="campo_senha" class="center" type="password" placeholder="Digite sua senha" required>
     <br>
 
-      <h2>animal de estimação</h2>
+      <h2 >animal de estimação</h2>
 
       <input type="radio" id="Cachorro" name="animal" value="Cachorro">
       <label for="Cachorro">Cachorro</label>
@@ -78,7 +79,10 @@
 
     <!--CAMPO PARA ENVIAR-->    
     <input type="submit" value="Enviar formulário">
-
+    <br><br>
+    <div class="exemplo-back">
+       obrigado por preecher este formulário nos desdicando seu tempo,horas,minutos etc,contamos com sua colaboração
+    </div>
 
     </form>
 

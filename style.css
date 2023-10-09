@@ -1,0 +1,29 @@
+*{
+    padding: 20px;
+}
+body{
+    background-color:rgb(233, 199, 205);
+}
+
+h1{
+    color: rgb(118, 78, 101);
+    font-size: 65px;
+
+    border-left: 4px dashed rgb(247, 171, 184);
+    border-top: 4px dashed rgb(247, 182, 193);
+    border-right: 4px dashed rgb(233, 152, 165);
+    border-bottom: 4px dashed rgb(222, 121, 138);  
+    border-radius: 20px;
+  
+}
+
+.center{
+    text-align: center;
+}
+.exemplo-back{
+     
+    height: 20px;
+    background-color: rgb(224, 174, 185);
+}
+
+ 
