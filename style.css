@@ -9,6 +9,7 @@ h1{
     color: rgb(118, 78, 101);
     font-size: 65px;
 
+
     border-left: 4px dashed rgb(247, 171, 184);
     border-top: 4px dashed rgb(247, 182, 193);
     border-right: 4px dashed rgb(233, 152, 165);
@@ -24,6 +25,8 @@ h1{
 
     height: 20px;
     background-color: rgb(224, 174, 185);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .botao{ 
 
